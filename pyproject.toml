@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask-multi-thread"
+version = "0.1.0"
+description = "test of multi-thread in flask"
+authors = ["Diogo Winck <diogo.winck@gmail.com>"]
+license = "apache"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.1"
+gunicorn = "^21.2.0"
+tornado = "^6.4"
+gevent = "^23.9.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
